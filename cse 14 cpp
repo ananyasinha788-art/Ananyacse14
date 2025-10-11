@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"enter new number"<<endl;
+    cin>>a>>b;
+    cout<<"before swapping"<<endl<<"a="<<a<<",b="<<b;
+    c=a;
+    a=b;
+    b=c;
+    cout<<endl<<"after swapping"<<endl<<"a="<<a<<,"b="<<b;
+    return 0;
+}
