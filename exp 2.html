@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Daily News</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 30px;
+            background: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0.5em 0 0 0;
+            font-size: 2em;
+        }
+        .nav {
+            margin: 10px 0;
+        }
+        .nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0073e6;
+        }
+        .news-section, .sports-section, .entertainment-section, .podcast-section, .contact-section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .bbc-img {
+            width: 270px;
+            margin-top: 10px;
+            border: 1px solid #eee;
+        }
+        iframe, video, audio {
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Global Daily News</h1>
+            <div class="nav">
+                <a href="#">Headlines</a> |
+                <a href="#">Sports</a> |
+                <a href="#">Entertainment</a> |
+                <a href="#">Podcast</a> |
+                <a href="#">Contact</a>
+            </div>
+            <p>Your Trusted Source for Latest Updates</p>
+        </header>
+        
+        <div class="news-section">
+            <div class="section-title">World News</div>
+            <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+            <img src="https://news.files.bbci.co.uk/include/newsspec/19454-bbc-world-service/images/bbc-world-news.png" alt="BBC World News" class="bbc-img">
+        </div>
+        
+        <div class="sports-section">
+            <div class="section-title">Sports Update</div>
+            <p>Highlights of yesterday's football match with thrilling last-minute goals!</p>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+                title="Big Buck Bunny" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="entertainment-section">
+            <div class="section-title">Entertainment Buzz</div>
+            <p>New movie trailer released today. Fans are excited!</p>
+            <video width="320" height="180" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="podcast-section">
+            <div class="section-title">News Podcast</div>
+            <p>Listen to today's top headlines:</p>
+            <audio controls>
+                <source src="podcast.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+        <div class="contact-section">
+            <div class="section-title">Contact Us</div>
+            <p>Reach us at <a href="mailto:info@globaldailynews.com">info@globaldailynews.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
