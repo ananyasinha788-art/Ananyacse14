@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:red;text-align: centre;">BTECH WEB DEVELOPMENT CURRICULUM (EXPERIMENT 1)</h1>
+    <H2>INTRODUCTION</H2>
+    <p> Welcome to course curriculum.This page demonstrate the use of HTML formatting,listing </p>
+    <h3>SEMSTER 1 SUBJECTS (ORDERED LIST)</h3>
+    <ol>
+        <li>Mathematics 1</li>
+        <li>Computer Fundamental1</li>
+        <li>Programming in C</li>
+        <li>Electronic Basics</li>
+    </ol>
+    <h4 style="font-size: 15px;">PROGRAMMING LANGUAGES(UNORDERED LIST)</h4>
+    <ul>
+        <li>C</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>JAVA SCRIPT</li>
+        </ul>
+        <h5 style="font-size: 15px;"></h5style>COURSE DESCRIPTION(DESCRIPTION LIST)</h5>
+        <dl>
+            <dt>C PROGRAMMING</dt>
+            <dd>Learn basics of c programming including loops,array.</dd>
+            <dt>JAVA</dt>
+            <dd>Introduction tp objrct oriented programming.</dd>
+            <dt>JAVASCRIPT</dt>
+            <dd>JavaScript is a programming language that enables interactive web pages and is an essential part of web applications.</dd>
+        <H6 style="font-size: 15px;">COURSE MODULES(NESTED LIST)</H6>
+        <OL>
+            MODULE 1: BASICS
+            <UL>
+                <LI>INTRODUCTION</LI>
+                <LI>HISTORY OF COMPUTER</LI>
+            </UL>
+            MODULE 2: PROGRAMMING
+            <UL>
+                <LI>VARIABLES</LI>
+                <LI>CONTROL STATEMENT</LI>
+                </UL>
+        </OL>
+        <H7 style="font-size: 15px;"><b>PROJECT WORK(MIXED LIST)</b></H7>
+        <UL>
+            <LI>WEB DEVELOPMENT</LI>
+            <OL>
+                <LI>HTML</LI>
+                <LI>CSS</LI>
+                <LI>JAVASCRIPT</LI>
+
+            </OL>
+            <LI>DATABASE</LI>
+            <OL type="A">
+                <LI>SQL</LI>
+                <LI>MYSQL</LI>
+            </OL>
+        </UL>
+    
+</body>
+</html>
