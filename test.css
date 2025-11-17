@@ -19,8 +19,6 @@ margin-bottom: 20px;
 
 
 
-
-
 .container {max-width: 420px; margin:  auto; }
 
 product-cards{
@@ -42,7 +40,7 @@ border-radius: 6px;
 
 
 
-.product-image{
+.colsspan{
 
 width: 100%;
 
@@ -59,8 +57,4 @@ margin-bottom: 10px;
 
 
 
-}
-
-.add-cart{
- background-color: blue;
 }
