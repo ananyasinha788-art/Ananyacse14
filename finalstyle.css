@@ -1,0 +1,12 @@
+h1{
+    color:red;
+}
+table, th, td {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    column-span: 2;
+}
