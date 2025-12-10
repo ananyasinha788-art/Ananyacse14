@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Responsive Product Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+title {
+  text-align:center;
+  font-size:1.1rem;
+  font-weight:700;
+  margin:0 0 18px;
+  background:#fff;
+  padding:12px 16px;
+  border-radius:6px;
+  border:1px solid #e0e0e0;
+  box-shadow:0 1px 0 rgba(0,0,0,0.02);
+}
+
+
+.product-grid {
+  display:grid;
+  gap:18px;
+  padding:20px;
+  background:white;
+  border:2px solid #d0d0d0;
+  border-radius:6px;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.card {
+  background:#fff;
+  border-radius:8px;
+  padding:14px;
+  box-shadow: 0 6px 14px rgba(25,25,25,0.06);
+  border:1px solid rgba(0,0,0,0.06);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  min-height:140px;
+}
+
+.thumb {
+  width:48px;
+  height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:6px;
+  background:#f0f6f0;
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+
+.prod-name { margin:4px 0; font-size:0.95rem; font-weight:700; }
+.desc { margin:6px 0 10px; font-size:0.85rem; color:#666; }
+.price { margin-top:auto; font-weight:700; color:#0b5; font-size:0.95rem; }
+
+
+
+
+
+@media (max-width: 600px) {
+  .product-grid { grid-template-columns: 1fr; gap:12px; padding:12px; }
+  .title { font-size:1rem; padding:10px; }
+  .card { padding:12px; min-height:110px; }
+  .thumb { width:40px; height:40px; font-size:20px; }
+  .prod-name { font-size:0.95rem; }
+  .desc { font-size:0.82rem; }
+}
+
+
+</style>
+<body>
+  <main class="page">
+    <h1 class="title">Responsive Product Grid</h1>
+
+    <section class="product-grid" aria-label="Products">
+    
+      <article class="card">
+        <div class="thumb">🖼️</div>
+        <h2 class="prod-name">Product 1</h2>
+        <p class="desc">High-quality item with great features.</p>
+        <div class="price">₹499</div>
+      </article>
+
+      <article class="card">
+        <div class="thumb">🖼️</div>
+        <h2 class="prod-name">Product 2</h2>
+        <p class="desc">Durable and stylish for daily use.</p>
+        <div class="price">₹799</div>
+      </article>
+
+     
+      <article class="card">
+        <div class="thumb">🖼️</div>
+        <h2 class="prod-name">Product 3</h2>
+        <p class="desc">Lightweight and comfortable.</p>
+        <div class="price">₹1,299</div>
+      </article>
+
+      <article class="card">
+        <div class="thumb">🖼️</div>
+        <h2 class="prod-name">Product 4</h2>
+        <p class="desc">Trendy design with premium quality.</p>
+        <div class="price">₹999</div>
+      </article>
+
+      
+
+      
+    </section>
+  </main>
+</body>
+</html>

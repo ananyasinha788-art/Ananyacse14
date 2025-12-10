@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopEasy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f2f4f8;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 350px;
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: #555;
+            margin-top: 4px;
+        }
+
+        .price {
+            color: #009933;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 8px;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 14px;
+            margin-left: 8px;
+        }
+
+        .btn {
+            width: 100%;
+            background: #0066d9;
+            color: white;
+            padding: 10px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background: #0055ba;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">ShopEasy</div>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.IbE_SIWIU9tP7u8AX6j1mwHaHa?pid=Api&P=0&h=180" alt="T-shirt">
+
+            <div class="title">Classic Cotton T-Shirt</div>
+
+            <div class="desc">Soft, breathable cotton. Regular fit. Available in multiple colors.</div>
+
+            <div>
+                <span class="price">₹799</span>
+                <span class="old-price">₹1,199</span>
+            </div>
+
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border:2px solid blue;
+        display: grid;
+        grid-template-areas: "nav nav nav"
+                          "article article article";
+        grid-template-rows:  100px 100px ;
+    }
+    header{
+        border:2px solid blue;
+        grid-area:nav;
+        
+        text-align: center;
+        font-size: 25px;
+        background-color: lightgray;
+    }
+    .item{
+        border:2px solid blue;
+        height: 50px;
+        width: 150px;
+        grid-column:1/5;
+        grid-row:2/3;
+    }
+</style>
+<body>
+    <div class="container">
+    <header>MY HEADER</header>
+    <div class="item item 1">
+    <a href="#">link1</a>
+    <br>
+    <a href="#">link2</a>
+    </div>
+   
+</body>
+</html>

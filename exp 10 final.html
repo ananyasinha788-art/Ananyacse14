@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+
+.navbar {
+    background: #1f1f1f;
+    color: white;
+    padding: 15px 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.user-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu a:hover,
+.user-links a:hover {
+    text-decoration: underline;
+}
+
+.user-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+
+.hero {
+    padding: 20px 30px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .navbar {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo user"
+            "menu menu";
+        row-gap: 10px;
+    }
+
+    .logo { grid-area: logo; }
+    .menu { grid-area: menu; }
+    .user-links { grid-area: user; }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        
+        
+        
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+    
+        
+        
+}
+</style>
+<body>
+    
+
+<header class="navbar">
+    <div class="logo">ShopEase</div>
+
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Categories</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="user-links">
+        <a href="#">Cart 🛒</a>
+        <a href="#">Login</a>
+    </div>
+</header>
+
+<section class="hero">
+    <h2>Welcome to ShopEase!</h2>
+    <p>Your one-stop destination for all shopping needs.</p>
+</section>
+
+
+</body>
+</html>
+

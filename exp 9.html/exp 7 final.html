@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border:2px solid black;
+        margin-bottom: 7px;
+    }
+        
+    .header{
+        grid-area: header;
+        background-color: lightgrey;
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        height:30px;
+        justify-content: center;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .nav{
+        grid-area: nav;
+        background-color: lightskyblue;
+        border:1px solid black;
+        padding:10px;
+        margin:3px;
+    }
+    .user{
+        grid-area: user;
+        background-color: lightgreen;
+        border:1px solid black;
+        padding:6px 15px;
+        margin:6px;
+        margin-bottom: 7px;
+    }
+    .item{
+        display:flex;
+        
+    }
+    .hello{
+        display:flex;
+    }
+    
+</style>
+<body>
+    <div class="container">
+    <header class ="header">My<span style="color:red"> Website</span> Navigation</header>
+
+        <div class="item">
+        <span class="nav"> <a href="#" style="color: blueviolet;">HOME</a> </span>
+        <span class="nav"> <a href="#" style="color:blueviolet">ABOUT</a> </span>
+        <span class="nav"> <a href="#" style="color: blueviolet;">SERVICES</a> </span>
+        <span class="nav"> <a href="#" style="color: blueviolet;">CONTACT</a> </span></div>
+        <div class="hello">
+        <span class="user"> <a href="#" style="color: blueviolet;">DASHBOARD</a> </span>
+        <span class="user"> <a href="#" style="color: blueviolet;">PROFILE</a> </span>
+        <span class="user"> <a href="#" style="color: blueviolet;">MESSAGE</a> </span>
+        <span class="user"> <a href="#" style="color: blueviolet">LOGOUT</a> </span>
+        
+        </div>
+
+    
+    
+</body>
+</html>
